@@ -1,10 +1,91 @@
+
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Warung Mirah WayHuwi",
+    "kategori": "Warung Makan Rumahan",
+    "alamat": "Gg. Dahlia No.3, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 8000,
+    "jamBuka": "05:30-22:00 WIB"
+  },
+  {
+    "id": "2",
+    "judul": "Rumah Makan Tiga Saudara",
+    "kategori": "Warung Makan Rumahan",
+    "alamat": "Jl. Airan I, Gg. Mawar No.82, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 11000,
+    "jamBuka": "06:30-21:00 WIB"
+  },
+  {
+    "id": "3",
+    "judul": "Warung Bude Wayan",
+    "kategori": "Warung Makan Rumahan",
+    "alamat": "Gg. Mawar II, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 12000,
+    "jamBuka": "09:00-22:00 WIB"
+  },
+  {
+    "id": "4",
+    "judul": "Dapoer Mpok N'zen",
+    "kategori": "Warung Makan Rumahan",
+    "alamat": "Jl. Airan I No.15, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 10000,
+    "jamBuka": "09:00-21:00 WIB"
+  },
+  {
+    "id": "5",
+    "judul": "Warung Manusia Biasa (MaBa)",
+    "kategori": "Warung Makan Rumahan",
+    "alamat": "Jl. Airan I No.76, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 13000,
+    "jamBuka": "08:00-22:00 WIB"
+  },
+  {
+    "id": "6",
+    "judul": "Mie Ayam Wajan Didit",
+    "kategori": "Makanan Cepat Saji",
+    "alamat": "Jl. Airan Raya No.89K, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 14000,
+    "jamBuka": "09:00-21:30 WIB"
+  },
+  {
+    "id": "7",
+    "judul": "Mie Gacoan Jati Agung Lampung",
+    "kategori": "Restoran",
+    "alamat": "Jl. Airan Raya No.1, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 15000,
+    "jamBuka": "00:00-23:59 WIB"
+  },
+  {
+    "id": "8",
+    "judul": "Miebara Airan Raya",
+    "kategori": "Restoran",
+    "alamat": "Jl. Airan Raya, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 15000,
+    "jamBuka": "09:00-22:00 WIB"
+  },
+  {
+    "id": "9",
+    "judul": "Warung Ijo Bu Nur",
+    "kategori": "Warung Makan Rumahan",
+    "alamat": "Jl. Hasan Raya, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 10000,
+    "jamBuka": "08:00-20:00 WIB"
+  },
+  {
+    "id": "10",
+    "judul": "Warung Makan Bu Ilsha",
+    "kategori": "Warung Makan Rumahan",
+    "alamat": "Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 12000,
+    "jamBuka": "10:00-23:00 WIB"
+  },
+  {
+    "id": "11",
+    "judul": "Mie Ayam Jago Lampung",
+    "kategori": "Makanan Cepat Saji",
+    "alamat": "Jl. Raden Saleh Terusan Cemara No.96, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 11000,
+    "jamBuka": "14:00-22:00 WIB"
   }
 ]
