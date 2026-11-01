@@ -69,7 +69,7 @@ Nama: Yabes Situmorang
 NIM: 124140067
 Kelas: RB
 Tema: Direktori Kuliner Sekitar Kampus
-Deployment: https://USERNAME.github.io/uts-paw/
+Deployment: https://yabes124140067-commits.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
 
