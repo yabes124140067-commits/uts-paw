@@ -2,30 +2,35 @@ import { NavLink, Outlet } from 'react-router-dom'
 import './Layout.css'
 
 const MENU = [
-    { ke: '/', label: 'Beranda' },
-    { ke: '/koleksi', label: 'Koleksi' },
-    { ke: '/tambah', label: 'Tambah' },
-    { ke: '/statistik', label: 'Statistik' },
-    { ke: '/tentang', label: 'Tentang' },
+  { ke: '/', label: 'Beranda' },
+  { ke: '/koleksi', label: 'Koleksi' },
+  { ke: '/tambah', label: 'Tambah' },
+  { ke: '/statistik', label: 'Statistik' },
+  { ke: '/tentang', label: 'Tentang' },
 ]
 
 export default function Layout() {
-    return (
-        <div className="kerangka">
-            <header className="kepala">
-                <strong>Direkotri Kuliner Sekitar Kampus</strong>
-                <nav className="menu">
-                    {MENU.map(({ ke, label }) => (
-                        <NavLink key={ke} to={ke} end={ke === '/'}>
-                            {label}
-                        </NavLink>
-                    ))}
-                </nav>
-            </header>
-            <main className="isi">
-                <Outlet />
-            </main>
-            <footer className="kaki">Ujian Tengah Semester Pengembangan Aplikasi Web</footer>
-        </div>
-    )
+  return (
+    <div className="kerangka" id="halaman-utama">
+      <header className="kepala" id="kepala-halaman">
+        <strong>Direktori Kuliner Sekitar Kampus</strong>
+
+        <nav className="menu">
+          {MENU.map(({ ke, label }) => (
+            <NavLink key={ke} to={ke} end={ke === '/'}>
+              {label}
+            </NavLink>
+          ))}
+        </nav>
+      </header>
+
+      <main className="isi" id="konten-utama">
+        <Outlet />
+      </main>
+
+      <footer className="kaki">
+        Ujian Tengah Semester Pengembangan Aplikasi Web
+      </footer>
+    </div>
+  )
 }
