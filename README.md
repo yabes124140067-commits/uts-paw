@@ -25,7 +25,12 @@ cd app
 npm install  
 npm run dev  
 
-## Konsep React yang dipakai
+## Konsep React yang Dipakai
 
-- ...
-```
+- Komponen fungsional dengan props (`Layout`, `KartuItem`, `KotakPencarian`, `FormItem`, `TabelStatistik`).
+- `useState` dan `useEffect`.
+- Context API untuk state koleksi.
+- Custom hook `useLocalStorage` dan `useKoleksi`.
+- React Router (`NavLink`, `useParams`, `useNavigate`).
+- `fetch` dengan `async/await`, form terkontrol, dan rendering daftar dengan `map` dan `key`.
+- Pengujian dengan Vitest dan React Testing Library.
